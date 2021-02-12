@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "96324781682",
+    "project_id": "brgysambagiionlineinquiries",
+    "storage_bucket": "brgysambagiionlineinquiries.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96324781682:android:a35728db73efc5d23ae4eb",
+        "android_client_info": {
+          "package_name": "com.cebsambagII.onlineinquiries"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96324781682-987t0n5kg5j5jdmo0tp5tgndm1bjaton.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3gLD6P3ZSs8yw0zYTtjPFGJzhYNwKzOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96324781682-987t0n5kg5j5jdmo0tp5tgndm1bjaton.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

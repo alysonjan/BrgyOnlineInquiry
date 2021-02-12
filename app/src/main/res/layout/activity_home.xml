@@ -1,0 +1,59 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="209dp"
+        android:layout_height="230dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="246dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Barangay Online Inquiries"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:id="@+id/getStartedButton"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Get Started"
+        android:textColor="@color/white"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25sp"
+        app:backgroundTint="@color/primary"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:id="@+id/adminButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/trans"
+        android:fontFamily="@font/poppins_light"
+        android:layout_gravity="center"
+        android:text="Login as Admin"
+        android:textColor="@color/primary"
+        android:textSize="15sp"
+        android:elevation="0dp"/>
+
+</LinearLayout>
